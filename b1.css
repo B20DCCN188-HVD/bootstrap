@@ -1,0 +1,17 @@
+body{
+    margin: 10%;
+}
+.thumbnail{
+    overflow: hidden;
+}
+.col-md-4 .thumbnail >a >img{
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+}
+.col-md-4 :hover > a >img{
+    transform: scale(1.2);
+}
+.text-center{
+    font-family: monospace;
+    font-weight: bold;
+}
